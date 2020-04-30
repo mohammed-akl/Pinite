@@ -3,7 +3,7 @@ name: 'Pintereso'
 description: 'Pintereso is a free Jekyll theme for awesome people like you, Pinterest like.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: '/template-pintereso-bootstrap-jekyll'
+baseurl: ''
 avatar: 'assets/images/sal.jpg'
 disqus: 'demowebsite'
 email: 'wowthemesnet@gmail.com'
@@ -12,12 +12,12 @@ include: ["_pages"]
 permalink: /:title/
 
 # Plugins
-plugins: 
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
- 
+
 # Defaults
 defaults:
 
@@ -26,14 +26,14 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      
+
   # all pages
   - scope:
       path: "_pages"
     values:
       layout: page
-      
-      
+
+
 # Syntax
 markdown: kramdown
 highlighter: rouge
