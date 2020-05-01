@@ -2,5 +2,12 @@
   .dropdown {
     visibility: collapse;
   }
+  .navbar-nav {
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  .form-control {
+    padding: 0.7rem 5rem 0.7rem 1rem;
+  }
 
 }
