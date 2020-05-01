@@ -168,3 +168,6 @@ collections:
         name: "permalink"
         widget: "hidden"
         default: "/{{slug}}/"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
