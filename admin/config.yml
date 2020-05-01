@@ -29,6 +29,7 @@ collections:
             name: "logo"
             widget: "image"
             required: false
+            hint: "36px*36px Recommended"
           - label: "Baseurl"
             name: "baseurl"
             widget: "string"

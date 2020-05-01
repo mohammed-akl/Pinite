@@ -1,8 +1,8 @@
 <!--  Replace top menu links here -->
 {% for item in site.menu %}
  {% if item.title and item.url %}
-<li class="nav-item">
-    <a class="nav-link" {% if site.item.title == page.title %} class="active"{% endif %} href="{{site.baseurl}}{{item.url}}">{{item.title}}</a>
+<li {% if item.title == page.title %} class="active"{% endif %} class="nav-item">
+    <a class="nav-link" href="{{site.baseurl}}{{item.url}}">{{item.title}}</a>
 </li>
 {% endif %}
 {% endfor %}
