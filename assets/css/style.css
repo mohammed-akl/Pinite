@@ -11,3 +11,9 @@
   }
 
 }
+
+@media (max-width: 911px) {
+  .PageNavigation {
+    visibility: collapse;
+  }
+}
