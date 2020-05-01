@@ -78,7 +78,7 @@ collections:
                 name: "url"
                 widget: "string"
                 hint: "Ex: /contact"
-          - label: "About"
+          - label: "Menu with Avatar"
             name: "about"
             widget: "object"
             fields:
