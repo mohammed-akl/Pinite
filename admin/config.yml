@@ -121,6 +121,11 @@ collections:
         widget: "string"
         required: false
         hint: "hide for hiding or leave it blank."
+      - label: "Content Author"
+        name: "author"
+        widget: "string"
+        required: false
+        hint: "Ex: Tagbit Community"
       - label: "Categories"
         name: "categories"
         widget: "list"
