@@ -52,7 +52,7 @@ collections:
             widget: "string"
             hint: "example@domain.com"
           - label: "Navigation Button"
-            name: "navigation_button"
+            name: "navbutton"
             widget: "object"
             fields:
               - label: "Navigation Button Title"
