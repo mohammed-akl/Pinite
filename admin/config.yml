@@ -34,3 +34,20 @@ collections:
             widget: "string"
             required: false
             hint: "Name of folder where files are stored."
+          - label: "Favicon"
+            name: "favicon"
+            widget: "image"
+            required: true
+          - label: "Avatar"
+            name: "avatar"
+            widget: "image"
+            required: false
+          - label: "Disqus Shortname"
+            name: "disqus"
+            widget: "string"
+            required: true
+            hint: "https://disqus_short.disqus.com"
+          - label: "E-mail"
+            name: "email"
+            widget: "string"
+            hint: "example@domain.com"
