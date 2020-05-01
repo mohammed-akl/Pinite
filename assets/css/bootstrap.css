@@ -4977,7 +4977,8 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem; }
+  border-radius: 0.25rem;
+   box-shadow: 0 3px 10px 0 rgba(76, 82, 103, 0.08);}
   /* line 16, node_modules/bootstrap/scss/_card.scss */
   .card > hr {
     margin-right: 0;
@@ -6500,7 +6501,7 @@ button.close {
     bottom: 0;
     border-top-color: rgba(0, 0, 0, 0.25); }
   /* line 55, node_modules/bootstrap/scss/_popover.scss */
-  
+
   .bs-popover-top .arrow::after,
   .bs-popover-auto[x-placement^="top"] .arrow::after {
     bottom: 1px;
@@ -6525,7 +6526,7 @@ button.close {
     left: 0;
     border-right-color: rgba(0, 0, 0, 0.25); }
   /* line 81, node_modules/bootstrap/scss/_popover.scss */
-  
+
   .bs-popover-right .arrow::after,
   .bs-popover-auto[x-placement^="right"] .arrow::after {
     left: 1px;
@@ -6547,7 +6548,7 @@ button.close {
     top: 0;
     border-bottom-color: rgba(0, 0, 0, 0.25); }
   /* line 104, node_modules/bootstrap/scss/_popover.scss */
-  
+
   .bs-popover-bottom .arrow::after,
   .bs-popover-auto[x-placement^="bottom"] .arrow::after {
     top: 1px;
@@ -6582,7 +6583,7 @@ button.close {
     right: 0;
     border-left-color: rgba(0, 0, 0, 0.25); }
   /* line 142, node_modules/bootstrap/scss/_popover.scss */
-  
+
   .bs-popover-left .arrow::after,
   .bs-popover-auto[x-placement^="left"] .arrow::after {
     right: 1px;
