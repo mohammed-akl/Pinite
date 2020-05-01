@@ -6218,7 +6218,8 @@ button.close {
   /* line 48, node_modules/bootstrap/scss/_modal.scss */
   .modal.show .modal-dialog {
     -webkit-transform: translate(0, 0);
-            transform: translate(0, 0); }
+            transform: translate(0, 0);
+    border-radius: 10px;}
 
 /* line 53, node_modules/bootstrap/scss/_modal.scss */
 .modal-dialog-centered {
@@ -6244,9 +6245,9 @@ button.close {
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
-  outline: 0; }
+  outline: 0;
+  padding: 20px; }
 
 /* line 77, node_modules/bootstrap/scss/_modal.scss */
 .modal-backdrop {
@@ -6276,7 +6277,6 @@ button.close {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 1rem;
-  border-bottom: 1px solid #eee;
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem; }
   /* line 101, node_modules/bootstrap/scss/_modal.scss */
@@ -6308,8 +6308,7 @@ button.close {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  padding: 1rem;
-  border-top: 1px solid #eee; }
+  padding: 1rem; }
   /* line 133, node_modules/bootstrap/scss/_modal.scss */
   .modal-footer > :not(:first-child) {
     margin-left: .25rem; }
