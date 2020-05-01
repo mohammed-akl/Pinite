@@ -46,6 +46,7 @@ paginate: 20
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
 
 # Header button
-btntitle: "Get Theme"
-btndes: "Get the theme for free"
-btnurl: "https://pintesero.eroyx.tk"
+navbutton:
+  btntitle: "Get Theme"
+  btndes: "Get the theme for free"
+  btnurl: "https://pintesero.eroyx.tk"
