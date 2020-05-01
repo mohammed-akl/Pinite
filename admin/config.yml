@@ -38,6 +38,10 @@ collections:
             name: "favicon"
             widget: "image"
             required: true
+          - label: "Avatar"
+            name: "avatar"
+            widget: "image"
+            required: false
           - label: "Disqus Shortname"
             name: "disqus"
             widget: "string"
@@ -78,7 +82,7 @@ collections:
                 name: "url"
                 widget: "string"
                 hint: "Ex: /contact"
-          - label: "Menu with Avatar"
+          - label: "About"
             name: "about"
             widget: "object"
             fields:

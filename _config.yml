@@ -4,6 +4,7 @@ description: 'Pintereso is a free Jekyll theme for awesome people like you, Pint
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
+avatar: 'assets/images/sal.jpg'
 disqus: 'demowebsite'
 email: 'wowthemesnet@gmail.com'
 
@@ -16,45 +17,48 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-highlighter: rouge
-name: Pintereso
-disqus: demowebsite
-include:
-  - _pages
-logo: assets/images/logo.png
-permalink: /:title/
-markdown: kramdown
+
+# Defaults
 defaults:
+
+  # all posts
   - scope:
-      path: _posts
+      path: "_posts"
     values:
       layout: post
+
+  # all pages
   - scope:
-      path: _pages
+      path: "_pages"
     values:
       layout: page
-baseurl: ""
-favicon: assets/images/logo.png
-navbutton:
-  btntitle: Get Theme
-  btndes: Get the theme for free
-  btnurl: https://pintesero.eroyx.tk
+
+
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
 paginate: 20
-avatar: assets/images/sal.jpg
-exclude:
-  - README.markdown
-  - package.json
-  - grunt.js
-  - Gruntfile.js
-  - Gruntfile.coffee
-  - node_modules
-description: Pintereso is a free Jekyll theme for awesome people like you, Pinterest like.
-email: wowthemesnet@gmail.com
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+
+# Header button
+navbutton:
+  btntitle: "Get Theme"
+  btndes: "Get the theme for free"
+  btnurl: "https://pintesero.eroyx.tk"
+
+# Menu
 menu:
   - title: "Home"
     url: "/"
   - title: "Categories"
     url: "/categories"
+  - title: "Posts"
+    url: "/web-concepts-library"
   - title: "Contact"
     url: "/contact"
 
