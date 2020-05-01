@@ -38,10 +38,6 @@ collections:
             name: "favicon"
             widget: "image"
             required: true
-          - label: "Avatar"
-            name: "avatar"
-            widget: "image"
-            required: false
           - label: "Disqus Shortname"
             name: "disqus"
             widget: "string"
@@ -54,7 +50,6 @@ collections:
           - label: "Navigation Button"
             name: "navbutton"
             widget: "object"
-            collapsed: "true"
             fields:
               - label: "Navigation Button Title"
                 name: "btntitle"
@@ -83,7 +78,23 @@ collections:
                 name: "url"
                 widget: "string"
                 hint: "Ex: /contact"
-                
+          - label: "About"
+            name: "about"
+            widget: "object"
+            fields:
+              - label: "Avatar"
+                name: "avatar"
+                widget: "image"
+                required: false
+              - label: "Title"
+                name: "title"
+                widget: "string"
+                required: false
+              - label: "URL"
+                name: "url"
+                widget: "string"
+                required: false
+                hint: "Ex: /about"
   - label: "Posts"
     name: "post"
     folder: "_posts"

@@ -4,7 +4,6 @@ description: 'Pintereso is a free Jekyll theme for awesome people like you, Pint
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
-avatar: 'assets/images/sal.jpg'
 disqus: 'demowebsite'
 email: 'wowthemesnet@gmail.com'
 
@@ -62,4 +61,8 @@ menu:
   - title: "Contact"
     url: "/contact"
 
-# Menu with Image
+# Menu with Image or about
+about:
+  avatar: 'assets/images/sal.jpg'
+  title: 'About'
+  url: '/about'
