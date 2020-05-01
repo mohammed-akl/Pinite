@@ -51,20 +51,24 @@ collections:
             name: "email"
             widget: "string"
             hint: "example@domain.com"
-          - label: "Navigation Button Title"
-            name: "btntitle"
-            widget: "string"
-            required: false
-          - label: "Navigation Button Header"
-            name: "btndes"
-            widget: "string"
-            hint: "Enter small headings for better view."
-            required: false
-          - label: "Navigation Button URL"
-            name: "btnurl"
-            widget: "string"
-            hint: "https://yourdomain.com/"
-            required: false
+          - label: "Navigation Button"
+            name: "navigation_button"
+            widget: "object"
+            fields:
+              - label: "Navigation Button Title"
+                name: "btntitle"
+                widget: "string"
+                required: false
+              - label: "Navigation Button Header"
+                name: "btndes"
+                widget: "string"
+                hint: "Enter small headings for better view."
+                required: false
+              - label: "Navigation Button URL"
+                name: "btnurl"
+                widget: "string"
+                hint: "https://yourdomain.com/"
+                required: false
   - label: "Posts"
     name: "post"
     folder: "_posts"
