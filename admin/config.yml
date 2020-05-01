@@ -93,6 +93,7 @@ collections:
       - label: "Date and Author Info"
         name: "metadate"
         widget: "string"
+        required: false
         hint: "hide for hiding or leave it blank."
       - label: "Categories"
         name: "categories"
