@@ -70,6 +70,20 @@ collections:
                 widget: "string"
                 hint: "https://yourdomain.com/"
                 required: false
+          - label: "Menu"
+            name: "menu"
+            widget: "list"
+            required: false
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+                hint: "Text that will show up in the menu."
+              - label: "URL"
+                name: "url"
+                widget: "string"
+                hint: "Ex: /contact"
+                
   - label: "Posts"
     name: "post"
     folder: "_posts"

@@ -50,3 +50,16 @@ navbutton:
   btntitle: "Get Theme"
   btndes: "Get the theme for free"
   btnurl: "https://pintesero.eroyx.tk"
+
+# Menu
+menu:
+  - title: "Home"
+    url: "/"
+  - title: "Categories"
+    url: "/categories"
+  - title: "Posts"
+    url: "/web-concepts-library"
+  - title: "Contact"
+    url: "/contact"
+
+# Menu with Image

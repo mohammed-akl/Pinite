@@ -1,6 +1,6 @@
 ---
 title: "About"
-permalink: "/about.html"
+permalink: "/about"
 image: "/assets/images/screenshot.jpg"
 ---
 

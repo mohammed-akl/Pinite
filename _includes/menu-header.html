@@ -1,17 +1,12 @@
 <!--  Replace top menu links here -->
+{% for item in site.menu %}
+ {% if item.title and item.url %}
+<li class="nav-item">
+    <a class="nav-link active" href="{{site.baseurl}}{{item.url}}">{{item.title}}</a>
+</li>
+{% endif %}
+{% endfor %}
 
-<li class="nav-item">
-    <a class="nav-link active" href="{{site.baseurl}}/index.html">Home</a>
-</li>
-<li class="nav-item">
-    <a class="nav-link" href="{{site.baseurl}}/categories.html">Categories</a>
-</li>
-<li class="nav-item">
-    <a class="nav-link" href="{{site.baseurl}}/web-concepts-library/">Post</a>
-</li>
-<li class="nav-item">
-    <a class="nav-link" href="{{site.baseurl}}/contact.html">Contact</a>
-</li>
 <li class="nav-item">
     <a class="nav-link" href="{{site.baseurl}}/about.html"><img class="rounded-circle mr-2" src="{{site.baseurl}}/{{site.avatar}}" width="30"><span class="align-middle">About</span></a>
 </li>
