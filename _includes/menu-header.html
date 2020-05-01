@@ -7,7 +7,7 @@
 {% endif %}
 {% endfor %}
 
-<li class="nav-item">
+<li {% if site.about.title == page.title %} class="active"{% endif %} class="nav-item">
     <a class="nav-link" href="{{site.baseurl}}{{site.about.url}}"><img class="rounded-circle mr-2" src="{{site.baseurl}}/{{site.about.avatar}}" width="30"><span class="align-middle">{{site.about.title}}</span></a>
 </li>
 <li class="nav-item dropdown">
