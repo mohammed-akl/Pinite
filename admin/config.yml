@@ -5,3 +5,32 @@ backend:
 publish_mode: editorial_workflow
 
 media_folder: "assets/images"
+collections:
+  - label: "Site Settings"
+    name: "settings"
+    editor:
+      preview: false
+      delete: false
+    files:
+      - label: "Site Info"
+        name: "site_info"
+        file: "_config.yml"
+        fields:
+          - label: "Website Name"
+            name: "name"
+            widget: "string"
+            required: true
+          - label: "Description"
+            name: "description"
+            widget: "string"
+            required: false
+            hint: "This will show in search."
+          - label: "Upload Logo"
+            name: "logo"
+            widget: "image"
+            required: false
+          - label: "Baseurl"
+            name: "baseurl"
+            widget: "string"
+            required: false
+            hint: "Name of folder where files are stored."
