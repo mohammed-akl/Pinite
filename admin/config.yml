@@ -54,6 +54,7 @@ collections:
           - label: "Navigation Button"
             name: "navbutton"
             widget: "object"
+            collapsed: "true"
             fields:
               - label: "Navigation Button Title"
                 name: "btntitle"
