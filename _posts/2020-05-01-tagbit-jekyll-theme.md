@@ -1,8 +1,8 @@
 ---
-date: 2020-04-30 07:48:10
+date: 2020-04-30T07:48:10.000Z
 layout: post
 title: Tagbit Jekyll Theme
-metadate: hide
+metadate: ""
 categories:
   - jekyll
   - modern
