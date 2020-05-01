@@ -51,20 +51,16 @@ collections:
             name: "email"
             widget: "string"
             hint: "example@domain.com"
-      - label: "Header Button"
-        name: "header_buttom"
-        file: "_config.yml"
-        fields:
-          - label: "Button Title"
+          - label: "Navigation Button Title"
             name: "btntitle"
             widget: "string"
             required: false
-          - label: "Button Header"
+          - label: "Navigation Button Header"
             name: "btndes"
             widget: "string"
             hint: "Enter small headings for better view."
             required: false
-          - label: "Button URl"
+          - label: "Navigation Button URL"
             name: "btnurl"
             widget: "string"
             hint: "https://yourdomain.com/"
