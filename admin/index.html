@@ -11,9 +11,14 @@
 
   <!-- Include the script that allows Netlify CMS login -->
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-  <!-- Register Color widget -->
-  <!-- https://github.com/ekoeryanto/netlify-cms-widgets/tree/master/widgets/color -->
-  <script src="../assets/js/react.min.js"></script>
-  <script src="../assets/js/widgets/color/react-color.min.js"></script>
-  <script src="../assets/js/widgets/color/color.min.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
