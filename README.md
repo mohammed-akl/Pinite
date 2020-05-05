@@ -1,17 +1,13 @@
-# "Pintereso" - Jekyll Template by WowThemes.net
+# "Pinite" - Jekyll Template by Muhammed Ashfar
 
-[Live Demo](https://wowthemesnet.github.io/template-pintereso-bootstrap-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/template-pintereso-bootstrap-jekyll/archive/master.zip) &nbsp; | &nbsp; [Buy me a coffee](https://www.wowthemes.net/donate/) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/bootstrap-templates/template-pintereso-bootstrap-jekyll/) &nbsp; | &nbsp; [WordPress version](https://www.wowthemes.net/themes/pinpresso-wordpress/)
-
-![Free Jekyll Theme Pintereso](assets/images/screenshot.jpg)
+[Live Demo](https://pinite.muhd.tk/) &nbsp; | &nbsp; [Download](https://github.com/muhammedashfar7/Pinite.git) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/bootstrap-templates/template-pintereso-bootstrap-jekyll/) &nbsp; | &nbsp;
+![Free Jekyll Theme Pintereso](assets/images/pinite.jpg)
 
 ### Copyright
 
-Copyright (C) 2018 WowThemes.net.
+Copyright (C) 2020
 
-**Pintereso for Jekyll** is designed by [Sal](https://www.wowthemes.net) and it is licensed MIT. If you want to thank Sal:
-
-<a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
+**Pinite for Jekyll** is designed by [Muhammed Ashfar](https://muhd.tk) and it is licensed MIT.
 -----------------
 
 ## Contribute
@@ -22,4 +18,4 @@ Copyright (C) 2018 WowThemes.net.
 
 Thank you!
 
-[Sal](https://www.wowthemes.net)
+[Muhammed Ashfar](https://muhd.tk)
