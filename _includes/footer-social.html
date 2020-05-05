@@ -1,11 +1,15 @@
 <!--  Replace footer social links here -->
-
-<li class="d-inline-block ml-1 mr-1"><a target="_blank" href="https://www.facebook.com/wowthemesnet" class="text-dark"><i class="fab fa-facebook-f"></i></a>
+{% if site.facebook_username %}
+<li class="d-inline-block ml-1 mr-1"><a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}" class="text-dark"><i class="fab fa-facebook-f"></i></a>
 </li>
-
-<li class="d-inline-block ml-1 mr-1"><a target="_blank" href="https://github.com/wowthemesnet" class="text-dark"><i class="fab fa-github"></i></a></li>
-
-<li class="d-inline-block ml-1 mr-1"><a target="_blank" href="https://twitter.com/wowthemesnet" class="text-dark"><i class="fab fa-twitter"></i></a></li>
-
-<li class="d-inline-block ml-1 mr-1"><a target="_blank" href="https://plus.google.com/+WowthemesNet" class="text-dark"><i class="fab fa-google-plus"></i></a>
+{% endif %}
+{% if site.github_username %}
+<li class="d-inline-block ml-1 mr-1"><a target="_blank" href="https://github.com/{{ site.github_username }}" class="text-dark"><i class="fab fa-github"></i></a></li>
+{% endif %}
+{% if site.twitter_username %}
+<li class="d-inline-block ml-1 mr-1"><a target="_blank" href="https://twitter.com/{{ site.twitter_username }}" class="text-dark"><i class="fab fa-twitter"></i></a></li>
+{% endif %}
+{% if site.instagram_username %}
+<li class="d-inline-block ml-1 mr-1"><a target="_blank" href="https://instagram.com/{{ site.instagram_username }}" class="text-dark"><i class="fab fa-instagram"></i></a>
 </li>
+{% endif %}

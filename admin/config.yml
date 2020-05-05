@@ -96,6 +96,22 @@ collections:
                 widget: "string"
                 required: false
                 hint: "Ex: /about"
+          - label: "Facebook Username"
+            name: "facebook_username"
+            widget: "string"
+            required: false
+          - label: "GitHub Username"
+            name: "github_username"
+            widget: "string"
+            required: false
+          - label: "Twitter Username"
+            name: "twitter_username"
+            widget: "string"
+            required: false
+          - label: "Instagram Username"
+            name: "instagram_username"
+            widget: "string"
+            required: false
   - label: "Posts"
     name: "posts"
     folder: "_posts"
