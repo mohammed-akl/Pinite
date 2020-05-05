@@ -1,7 +1,7 @@
 # "Pinite" - Jekyll Template by Muhammed Ashfar
 
 [Live Demo](https://pinite.muhd.tk/) &nbsp; | &nbsp; [Download](https://github.com/muhammedashfar7/Pinite.git) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/bootstrap-templates/template-pintereso-bootstrap-jekyll/) &nbsp; | &nbsp;
-![Free Jekyll Theme Pintereso](assets/images/pinite.jpg)
+![Free Jekyll Theme Pinite](assets/images/pinite.jpg)
 
 ### Copyright
 
