@@ -17,3 +17,34 @@
     visibility: collapse;
   }
 }
+
+ul.mb-0 {
+  list-style-type: none;
+}
+
+li.lunrsearchresult {
+  border-left: 4px solid #f64b4b;
+  padding: 5px 5px 5px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: #ffd1d170;
+}
+
+.lunrsearchresult .title {
+  font-weight: 600;
+}
+
+.cate-button {
+  font-size: 15px;
+  color: #727272;
+  border-radius: 10px;
+  background: #ededed8f;
+  padding: 5px 10px;
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+.fas.fa-sort-amount-down {
+  margin-right: 4px;
+}
