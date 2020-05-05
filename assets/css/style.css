@@ -48,3 +48,7 @@ li.lunrsearchresult {
 .fas.fa-sort-amount-down {
   margin-right: 4px;
 }
+
+.navbar-brand.font-weight-bolder.mr-3 {
+  width: 40px;
+}
