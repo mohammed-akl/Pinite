@@ -1,7 +1,7 @@
 ---
 title: "About"
 permalink: "/about"
-image: "/assets/images/screenshot.jpg"
+image: "/assets/images/pinite.jpg"
 ---
 
 Hi, guys! The website you are previewing is a demonstration for Pintereso Jekyll theme and it is hosted on Github pages. There are various ways you can use Pintereso with your Jekyll website. Here are some of them:
